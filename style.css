@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@400;700&display=swap');
+
+body{
+  font-family:"Arial", Serif;
+  overflow-x:hidden;
+  margin: 0 auto;
+  background-color: #FAF9F6;
+}
+
+.navbar{
+  background-color:#5B7B7A;
+  overflow:hidden;
+  height:63px;
+}
+
+.navbar a{
+  float:right;
+  display:block;
+  color:#f2f2f2;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+  font-size:17px;
+}
+
+.navbar ul{
+  margin:8px 0 0 0;
+  list-style:none;
+}
+
+.navbar a:hover{
+  background-color:#BED600;
+  color:#000;
+  border-radius: 8px;
+}
+
+.side-nav{
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:1;
+  top:0;
+  left:0;
+  background-color:#111;
+  opacity:0.9;
+  overflow-x:hidden;
+  padding-top:60px;
+  transition:0.5s;
+}
+
+.side-nav a{
+  padding:10px 10px 10px 30px;
+  text-decoration:none;
+  font-size:22px;
+  color:#ccc;
+  display:block;
+  transition:0.3s;
+}
+
+.side-nav a:hover{
+  color:#fff;
+}
+
+.side-nav .btn-close{
+  position:absolute;
+  top:0;
+  right:22px;
+  font-size:36px;
+  margin-left:50px;
+}
+
+#main{
+  transition: 0.5s;
+  padding:20px;
+  overflow:hidden;
+  width:100%;
+  padding-left: 0;
+ 
+}
+
+#main h1{
+  text-align: center;
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;}
+.hero{
+  min-width: 450px;
+}
+hr{
+color: #0A0908;
+	box-shadow: 0 5px 5px 0px #0A0908 ;
+  width: 95%;
+}
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  border-radius: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:568px){
+  .navbar-nav{display:none}
+}
+
+@media(min-width:568px){
+  .open-slide{display:none}
+}
