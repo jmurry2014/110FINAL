@@ -38,42 +38,41 @@
     <a href="contact.html">Contact</a>
 
   </div>
-  <div id="title"><h1>The Daily Blog</h1></div>
+  <div id="title"><h1>The Model View Controller (MVC)</h1></div>
 
 
 
   <div id="main" class="container">
     <div id="heroSection">
-      <div class="hero"><a href="concerns.html"><img src="SOC.jpeg" alt="" class="center"></a></div>
+      <div class="hero"><a href="#"><img src="test.jpg" alt="" class="center"></a></div>
       <P class="postInfo">James Murry <br>5 days ago</P>
     </div>
     <div class="headStyle">
-      <h2>What is Seperation of Concerns?</h2>
+      <h2>What is the MVC?</h2>
       <p>
-        In computer science, separation of concerns is a design principle for separating a computer program into distinct sections. Each section addresses a separate concern, a set of information that affects the code of a computer program. A concern can be as general as "the details of the hardware for an application", or as specific as "the name of which class to instantiate". </p>
+        The Model-View-Controller (MVC) is an architectural pattern that separates an application into three main logical components: the model, the view, and the controller. Each of these components are built to handle specific development aspects of an application. MVC is one of the most frequently used industry-standard web development framework to create scalable and extensible projects.    
+        </p>
+        </div>
+        <div class="headStyle">
+            <h2>Model</h2>
+        <p>The Model is responsible for getting and manipulating data. You could say that the model is the brain of the architectural pattern. The model can be created to work with any database such as a relational database or a noSQL database. </p>
     </div>
+    <div class="headStyle">
+        <h2>View</h2>
+<p>The view defines how the app's data should be displayed.
 
-  <hr>
+    In our shopping list app, the view would define how the list is presented to the user, and receive the data to display from the model</p>    
+</div>  
+<div class="headStyle"> 
+    <h2>Controller</h2>
+<p>The controller contains logic that updates the model and/or view in response to input from the users of the app.
 
-  <div id="heroSection">
-    <div class="hero"><a href="#"><img src="test.jpg" alt="" class="center"></a></div>
-    <P class="postInfo">James Murry <br>4 days ago</P>
-  </div>
-<div class="headStyle">
-  <h2>The MVC</h2>
-<p>Separation of concerns can be expressed as functions, modules, controls, widgets, layers, tiers, services, and even files. Learn how the MVC can help manage your code effectively.</p>
-</div>
-
-  <hr>
-
-  <div id="heroSection">
-    <div class="hero"><a href="crud.html"><img src="CRUD.png" alt="" class="center"></a></div>
-    <P class="postInfo">James Murry <br>3 days ago</P>
-  </div>
-<div class="headStyle">
-  <h2>CRUD</h2>
-  <p>CRUD refers to the four basic operations a software application should be able to perform – Create, Read, Update, and Delete. In such apps, users must be able to create data, have access to the data in the UI by reading the data, update or edit the data, and delete the data.</p>
-</div>
+    So for example, a shopping list could have input forms and buttons that allow us to add or delete items. These actions require the model to be updated, so the input is sent to the controller, which then manipulates the model as appropriate, which then sends updated data to the view.
+    
+    You might however also want to just update the view to display the data in a different format, e.g., change the item order to alphabetical, or lowest to highest price. In this case the controller could handle this directly without needing to update the model.</p>
+</div> 
+    <a href="#" class="previous">&laquo; Previous</a>
+    <a href="#" class="next">Next &raquo;</a>
 
   
 </div>
